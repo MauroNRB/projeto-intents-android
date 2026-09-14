@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+id btnExplicita
+id btnImplicita
+layout activity_main
+layout activity_segunda
+style Theme.IntentsAndroid

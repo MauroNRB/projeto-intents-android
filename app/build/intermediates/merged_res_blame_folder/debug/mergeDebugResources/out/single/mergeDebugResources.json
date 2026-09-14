@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.intentsandroid.app-debug-23:/layout_activity_segunda.xml.flat",
+        "source": "com.example.intentsandroid.app-main-25:/layout/activity_segunda.xml"
+    },
+    {
+        "merged": "com.example.intentsandroid.app-debug-23:/layout_activity_main.xml.flat",
+        "source": "com.example.intentsandroid.app-main-25:/layout/activity_main.xml"
+    }
+]
