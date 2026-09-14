@@ -12,19 +12,19 @@
         android:text="Intents Android"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:layout_marginBottom="32dp" />
+        android:layout_marginBottom="32dp"/>
 
     <Button
         android:id="@+id/btnExplicita"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Abrir Intent Explícita"
-        android:layout_marginBottom="16dp" />
+        android:text="Intent Explícita"
+        android:layout_marginBottom="16dp"/>
 
     <Button
         android:id="@+id/btnImplicita"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Abrir Intent Implícita (Google)" />
+        android:text="Intent Implícita (Navegador)"/>
 
 </LinearLayout>

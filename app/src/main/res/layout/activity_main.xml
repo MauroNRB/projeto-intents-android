@@ -1,20 +1,30 @@
-plugins {
-    id 'com.android.application'
-}
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
 
-android {
-    namespace 'com.example.intentsandroid'
-    compileSdk 35
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intents Android"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
 
-    defaultConfig {
-        applicationId 'com.example.intentsandroid'
-        minSdk 23
-        targetSdk 35
-        versionCode 1
-        versionName '1.0'
-    }
-}
+    <Button
+        android:id="@+id/btnExplicita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Explícita"
+        android:layout_marginBottom="16dp"/>
 
-dependencies {
-    implementation 'androidx.appcompat:appcompat:1.7.0'
-}
+    <Button
+        android:id="@+id/btnImplicita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Implícita (Navegador)"/>
+
+</LinearLayout>
